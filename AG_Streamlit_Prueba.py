@@ -202,7 +202,10 @@ Por otro lado, Internet está cada vez más presente en la informática. Cada ve
 
 Los smartphones y las tablets están jugando también un papel significativo. Hace no muchos años, si necesitabas utilizar una aplicación, solo tenías la opción de hacerlo en un ordenador personal. Hoy en día todos llevamos un teléfono móvil encima y, para mucha gente, esto es todo lo que necesitan.
 
-Es posible que en los próximos años haya un cambio de paradigma y que deje de tener sentido disponer de un ordenador personal muy potente. En su lugar, bastará con tener un pequeño terminal desde donde acceder a los servicios a través de Internet. Además, nos servirá cualquier terminal, propio o ajeno.""")
+Es posible que en los próximos años haya un cambio de paradigma y que deje de tener sentido disponer de un ordenador personal muy potente. En su lugar, bastará con tener un pequeño terminal desde donde acceder a los servicios a través de Internet. Además, nos servirá cualquier terminal, propio o ajeno.
+
+Fuente: https://carballar.com """)
+        
 
     if col2.button("Breve historia de los microprocesadores", key="historia_microprocesadores", help="Haz clic aquí para leer sobre la historia de los microprocesadores"):
         st.subheader("Breve historia de los microprocesadores")
@@ -342,7 +345,9 @@ La mayoría de los equipos electrónicos de hoy en día llevan microprocesadores
         
         st.write("""Por otro lado, el mundo de la telefonía móvil y tablets se ha desarrollado mucho en estos últimos años. La fabricación de microprocesadores para este tipo de dispositivos no deja de crecer. Fabricantes de microprocesadores como MediaTek, Qualcomm, Samsung, Huawei o Apple son especialistas en estos chips y merecerían un estudio aparte.
 
-Además de los anteriores, cabe mencionar otros fabricantes importantes como Freescale, Nvidia, Spreadtrum o Texas Instrument.""")
+Además de los anteriores, cabe mencionar otros fabricantes importantes como Freescale, Nvidia, Spreadtrum o Texas Instrument.
+
+Fuente: https://carballar.com""")
 
     if col3.button("Historia de Intel vs AMD", key="historia_intel_amd", help="Haz clic aquí para leer sobre la historia de Intel vs AMD"):
         st.subheader("Historia de Intel vs AMD")
@@ -434,7 +439,9 @@ La batalla tecnológica de ambas empresas continuará en los próximos años. In
         st.image(imagen_ventas, use_column_width=True)
         st.caption("<span style='color: white;'>Ventas de microprocesadores para ordenadores de sobremesa (Intel vs AMD)</span>", unsafe_allow_html=True)
         
-        st.write("""Las ventas de microprocesadores para ordenadores portátiles (laptop) se mantiene, casi desde sus comienzos en una proporción 80%/20% a favor de Intel. En los microprocesadores para servidores Intel se ha ido quedando con casi la totalidad del mercado, donde AMD ha desaparecido. El único mercado donde hay una verdadera competencia entre ambas empresas es en el de microprocesadores para ordenadores de sobremesa (desktop). Desde hace algunos años, AMD está ganando terreno y en 2021 ha conseguido vencer de nuevo a Intel en las ventas en este mercado.""")
+        st.write("""Las ventas de microprocesadores para ordenadores portátiles (laptop) se mantiene, casi desde sus comienzos en una proporción 80%/20% a favor de Intel. En los microprocesadores para servidores Intel se ha ido quedando con casi la totalidad del mercado, donde AMD ha desaparecido. El único mercado donde hay una verdadera competencia entre ambas empresas es en el de microprocesadores para ordenadores de sobremesa (desktop). Desde hace algunos años, AMD está ganando terreno y en 2021 ha conseguido vencer de nuevo a Intel en las ventas en este mercado.
+        
+        Fuente: https://carballar.com""")
 
     if col4.button("Qué es la Ley de Moore", key="ley_moore", help="Haz clic aquí para leer sobre la Ley de Moore"):
         st.subheader("Qué es la Ley de Moore")
@@ -496,7 +503,9 @@ A pesar de lo anterior, lo cierto es que, los fabricantes siempre han encontrado
         st.image(imagen_densidad, use_column_width=True)
         st.caption("<span style='color: white;'>Evolución de la densidad de transistores.</span>", unsafe_allow_html=True)
         
-        st.write("""El propio Moore dijo en una entrevista de 2007 que ‘el hecho de que los materiales estén hechos de átomos es la limitación fundamental … así que uno de estos días vamos a tener que dejar de hacer las cosas más pequeñas‘. El diámetro de un átomo varía entre 0,1 y 0,5 nanómetros. Intel construyó en 2014 el primer microprocesador con transistores de tan sólo 14 nanómetros (nm). Puede parecer pequeño, pero AMD hizo lo propio en 2019 con chips de 7 nm. Para continuar en la carrera, los fabricantes TSMC y Samsung empezaron la fabricación de chips a 5 nm en 2020.""")
+        st.write("""El propio Moore dijo en una entrevista de 2007 que ‘el hecho de que los materiales estén hechos de átomos es la limitación fundamental … así que uno de estos días vamos a tener que dejar de hacer las cosas más pequeñas‘. El diámetro de un átomo varía entre 0,1 y 0,5 nanómetros. Intel construyó en 2014 el primer microprocesador con transistores de tan sólo 14 nanómetros (nm). Puede parecer pequeño, pero AMD hizo lo propio en 2019 con chips de 7 nm. Para continuar en la carrera, los fabricantes TSMC y Samsung empezaron la fabricación de chips a 5 nm en 2020.
+        
+        Fuente: https://carballar.com""")
         
         
         
@@ -565,7 +574,9 @@ AMD también es una empresa que tiene tanto sus puntos fuertes como débiles. Aq
 
 - **Intel Core i9-11900K 3.5 Ghz:** Si lo que buscas es un procesador para gaming que te sirva también para editar vídeos, realizar streamings o renderizar en 3D, este i9-11900K es seguramente la solución a tus problemas. Cuenta con 8 núcleos físicos junto a 16 virtuales y una potencia de 3,5 Ghz que puede llegar a los 5,1 Ghz en turbo.
 
-- **AMD Ryzen 9 5950X 3.4 GHz:** Si tu apuesta es por AMD, tienes este Ryzen 9, la apuesta por la quinta generación con la tecnología más avanzada del mundo. Esta CPU cuenta con 16 núcleos y 32 hilos que alcanzan una potencia de 3,4 Ghz de base y hasta 4,9 Ghz en turbo. Una opción que no debes pasar por alto si quieres realizar multitarea.""",
+- **AMD Ryzen 9 5950X 3.4 GHz:** Si tu apuesta es por AMD, tienes este Ryzen 9, la apuesta por la quinta generación con la tecnología más avanzada del mundo. Esta CPU cuenta con 16 núcleos y 32 hilos que alcanzan una potencia de 3,4 Ghz de base y hasta 4,9 Ghz en turbo. Una opción que no debes pasar por alto si quieres realizar multitarea.
+
+Fuente: https://www.pccomponentes.com/blog""",
         
 "Tarjeta Gráfica": """![Imagen Grafica](https://i.postimg.cc/kXNjDbj0/elegir-tarjeta-grafica.jpg)
 Renderiza las imágenes en la pantalla y ofrecer una visualización de alta calidad, procesando y ejecutando datos gráficos mediante técnicas, características y funciones gráficas avanzadas. Hay que diferenciar la GPU (unidad de procesamiento gráfico) de lo que es una tarjeta gráfica, porque lo primero es un chip, mientras que lo segundo es un producto terminado.
@@ -666,6 +677,9 @@ En una tarjeta gráfica te vas a encontrar:
 Este es uno de los factores determinantes a la hora de saber cómo elegir tu tarjeta gráfica ideal porque marca un antes y un después en cada generación. De nada sirve tener HDMI 2.1 en Turing o Pascal porque es casi imposible poner una de sus GPUs a más de 144 FPS en 4K en juegos de última generación.
 
 Como consejo final, antes de comprar una tarjeta gráfica, se recomienda comparar modelos y ver comparativas de rendimiento gaming en YouTube porque seguro serán de ayuda. 
+
+Fuente: https://www.pccomponentes.com/blog
+
 """, "Placa Base": """![Imagen Procesador](https://i.postimg.cc/LsjwHJdy/Placa-base-1.jpg)
 
 La placa base es uno de los componentes más importantes a la hora de montar un ordenador. A esta pieza se conecta la memoria RAM, la CPU, los discos duros y la fuente de alimentación, elementos esenciales para que un ordenador funcione a pleno rendimiento.
@@ -742,7 +756,10 @@ Ean 2001 surgieron las placas base ITX (Integrated Technology eXtended). Sobre e
 
 ### **Placas base DTX**
 
-Por último, encontramos las placas base DTX. Este modelo salió a la luz en 2007 y, sobre todo, está destinado a mini-PCs. Es, por tanto, una opción ideal para quienes quieren montarse un ordenador de pequeñas dimensiones. Estas placas tienen un conector de energía de 24 pines y otro adicional de 2x2.""",
+Por último, encontramos las placas base DTX. Este modelo salió a la luz en 2007 y, sobre todo, está destinado a mini-PCs. Es, por tanto, una opción ideal para quienes quieren montarse un ordenador de pequeñas dimensiones. Estas placas tienen un conector de energía de 24 pines y otro adicional de 2x2.
+
+Fuente: https://www.pccomponentes.com/blog""",
+        
 "Memoria RAM":"""![Imagen Procesador](https://i.postimg.cc/BbNtRZQb/Ram-1.jpg)
 
 La RAM, o Memoria de Acceso Aleatorio (Random Access Memory en inglés), es un tipo de memoria volátil que se utiliza en los ordenadores y otros dispositivos electrónicos. Se utiliza para almacenar temporalmente datos e instrucciones que son necesarios para que la CPU (o procesador) pueda acceder rápidamente a ellos durante la ejecución de programas y procesos.
@@ -815,7 +832,10 @@ Te dejamos aquí una regla que jamás te fallará ten dos tarjeta RAMs siempre.
 
 - 16GB de RAM: aquí ya empiezas a ir bien de recursos. Ideal para juegos normales, una edición de video sencillo y lo mínimo para los desarrolladores.
 
-- 32GB de RAM: esta cantidad de memoria ram te servirá para gaming, para jugar a cualquier juego, para editar videos como un profesional e incluso para el diseño en 3D.""",
+- 32GB de RAM: esta cantidad de memoria ram te servirá para gaming, para jugar a cualquier juego, para editar videos como un profesional e incluso para el diseño en 3D.
+
+Fuente: https://www.pccomponentes.com/blog""",
+        
 "Fuentes de Alimentación": """![Imagen Procesador](https://i.postimg.cc/ZKG0gQJr/Fuente-alimentacion-1.jpg)
 
 Las fuentes de alimentación son esenciales en cualquier equipo: sin ellas no funciona ningún componente. Encargadas de suministrar energía a los diversos componentes que coexisten en un PC o portátil, se pueden diferenciar por su tamaño, su cableado, por su potencia y por su eficiencia energética.
@@ -860,7 +880,10 @@ En este sentido, solo encontramos 2 opciones de refrigeración, con la excepció
 
 ### **Según su potencia**
 
-La potencia de las fuentes de alimentación tiene un rango de vatios muy amplio, partiendo desde los 180 W y yendo hasta los 2.000 W. La mayoría de las personas optan entre una fuente de 450 W y 850 W debido a que no disfrutaremos nunca del 100% de toda su potencia, sino que para ello hay que tener en cuenta la eficiencia energética. """,
+La potencia de las fuentes de alimentación tiene un rango de vatios muy amplio, partiendo desde los 180 W y yendo hasta los 2.000 W. La mayoría de las personas optan entre una fuente de 450 W y 850 W debido a que no disfrutaremos nunca del 100% de toda su potencia, sino que para ello hay que tener en cuenta la eficiencia energética. 
+
+Fuente: https://www.pccomponentes.com/blog""",
+        
 "Disco duro: HDD vs SSD":"""![Imagen Procesador](https://i.postimg.cc/Z5PYQK7S/discosduros-1.jpg)
 
 Vamos a analizar las diferencias y características principales de los discos duros SSD, término que viene de Solid State Drive, contra las unidades de disco duro HDD, cuyo término procede en este caso de Hard Disk Drive. El objetivo es averiguar cuál va a resultar la mejor opción, HDD o SSD, para hacer nuestra compra.
@@ -987,7 +1010,9 @@ Llegados a este punto estamos bastante seguros de que conoces todas las caracter
 
 - Si estás moviendo archivos siempre del disco duro al pendrive, compra un SSD
 
-- Si te da igual qué comprar, compra un SSD.""","Torres y Cajas de PC":"""![Imagen Procesador](https://i.postimg.cc/pTQXwVX8/Torrepc-1.jpg)
+- Si te da igual qué comprar, compra un SSD.
+
+Fuente: https://www.pccomponentes.com/blog""","Torres y Cajas de PC":"""![Imagen Procesador](https://i.postimg.cc/pTQXwVX8/Torrepc-1.jpg)
 
 Placa base, memoria RAM, procesador, tarjeta gráfica, disco duro… Todos estos elementos son esenciales a la hora de montar un PC que pueda “con todo lo que le echen por delante”. Sin embargo, cualquiera de estos componentes carece de sentido sino se tiene una buena caja donde ensamblarlos. Un ordenador de altas prestaciones necesita de una buena refrigeración a través de todos sus componentes.
 
@@ -1081,7 +1106,10 @@ Aunque esto no quiere decir que de vez en cuando estos hagan a veces un ruido al
 
 - **Excesivo uso de plásticos.** Hay que decir que el plástico no es el mejor elemento para aislar el sonido. Por tanto, a la hora de comprar una caja hay que prestar mucha atención a este aspecto. Algo parecido ocurre con los aceros que si son de una mala aleación pueden provocar que el ruido sea mayor.
 
-- **Sistema anti vibración.** Con la cantidad de componentes que existen dentro de una caja, es muy normal que se produzcan multitud de vibraciones provenientes por ejemplo de los disipadores del CPU como de la propia tarjeta gráfica. En este sentido. Las cajas más actuales ofrecen todo tipo de sistemas antivibración, sobre todo en la base y en los laterales con el objetivo de que no se produzcan ruidos indeseados."""
+- **Sistema anti vibración.** Con la cantidad de componentes que existen dentro de una caja, es muy normal que se produzcan multitud de vibraciones provenientes por ejemplo de los disipadores del CPU como de la propia tarjeta gráfica. En este sentido. Las cajas más actuales ofrecen todo tipo de sistemas antivibración, sobre todo en la base y en los laterales con el objetivo de que no se produzcan ruidos indeseados.
+
+Fuente: https://www.pccomponentes.com/blog"""
+        
 ,"Compatibilidad entre componentes de PC":"""![Imagen Procesador](https://i.postimg.cc/zBHPv3Rb/Compatibilidad-Componentes-1.jpg)
 
 Cuando compramos un PC a piezas o queremos actualizar algún componente, podemos cometer errores en la elección. En ocasiones, no podemos conectar ciertos componentes por incompatibilidades, así que vamos a tratarlas todas a continuación.
@@ -1206,7 +1234,9 @@ Esto lo debéis cotejar especialmente cuando vais a instalar un SSD M.2 en vuest
 
 La placa base tiene unos conectores internos en los que se conectan unas clavijas de la caja PC, teniendo como función conectar los puertos frontales de la caja PC con el sistema. Pues bien, la incompatibilidad viene cuando elegimos una caja PC que no soporta todas las conexiones frontales de la placa base.
 
-De este modo, estaremos desaprovechando puertos que podríamos disfrutar porque nuestra placa base está habilitada por ello. Lo mismo ocurre al revés: que la caja PC soporte tecnologías avanzadas (USB 3.2) y la placa base se resuma a USB 3.1 y USB 3.0."""
+De este modo, estaremos desaprovechando puertos que podríamos disfrutar porque nuestra placa base está habilitada por ello. Lo mismo ocurre al revés: que la caja PC soporte tecnologías avanzadas (USB 3.2) y la placa base se resuma a USB 3.1 y USB 3.0.
+
+Fuente: https://www.pccomponentes.com/blog"""
 
         
     }
